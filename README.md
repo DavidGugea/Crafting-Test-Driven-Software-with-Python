@@ -218,3 +218,34 @@ To showcase how test doubles can help us during TDD, we are going to build a cha
 # 3. Test-Driven Development while Creating a TODO List
 
 \-
+
+
+# 4. Scaling the Test Suite
+
+## Working with multiple suites
+
+The separation of tests we did earlier in this chapter helped us realize that there can be multiple test suites inside our tests directory.
+
+We can then point the unittest module to some specific directories using the -k option to run test units on every change, and functional tests when we think we have something that starts looking like a full feature. Thus, we will rely on e2e tests only when making new releases or merging pull requests to pass the last checkpoint.
+
+There are a few kinds of test suites that are usually convenient to have in all our projects. The most common kinds of tests suites you will encounter in projects are likely the compile suite, commit tests, and smoke tests.
+
+### Compile suite
+
+The compile suite is a set of tests that must run very fast. Historically, they were performed every time the code had to be recompiled. As that was a frequent action, the compile suite had to be very fast. They were usually static code analysis checks, and while Python doesn't have a proper compilation phase, it's still a good idea to have a compile suite that we can maybe run every time we modify a file.
+
+### Commit tests
+
+As the name suggests, commit tests are tests you run every time you commit a new change.
+
+### Smoke tests
+
+Smoke tests are a set of tests used to identify whether we broke the system in an obvious way and thus let us know that it doesn't make sense to proceed with further testing.
+
+Historically, it came from a time where test cases were manually verified, so before investing hours of human effort, a set of checks was performed to ensure that the system did work and thus it made sense to test it.
+
+Nowadays, tests are far faster and cheaper as they are performed by machines, but it still makes sense to have a smoke test suite before running the more expensive tests. It's usually a good idea to select a subset of your e2e tests that constitute the smoke test suite, and run the complete e2e suite only if it passed the smoke tests.
+
+Sometimes, smoke tests are a dedicated set of tests explicitly written for that purpose, but an alternative is to select a set of other tests that we know exercise the most meaningful parts of our system and "tag" them as smoke tests
+
+
