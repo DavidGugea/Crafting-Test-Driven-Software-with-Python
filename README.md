@@ -263,3 +263,7 @@ Sometimes, smoke tests are a dedicated set of tests explicitly written for that 
 # 6. Dynamic and Parametric Tests and Fixtures
 
 \-
+
+# 7. Fitness Function with a Contact Book Application
+
+\-
