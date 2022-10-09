@@ -248,4 +248,14 @@ Nowadays, tests are far faster and cheaper as they are performed by machines, bu
 
 Sometimes, smoke tests are a dedicated set of tests explicitly written for that purpose, but an alternative is to select a set of other tests that we know exercise the most meaningful parts of our system and "tag" them as smoke tests
 
+---
+---
 
+# Section 2: PyTest for Python Testing
+
+---
+---
+
+# 5. Introduction to PyTest
+
+\-
