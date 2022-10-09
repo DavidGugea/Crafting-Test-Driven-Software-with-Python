@@ -267,3 +267,7 @@ Sometimes, smoke tests are a dedicated set of tests explicitly written for that 
 # 7. Fitness Function with a Contact Book Application
 
 \-
+
+# 8. PyTest Essential Plugins
+
+\-
