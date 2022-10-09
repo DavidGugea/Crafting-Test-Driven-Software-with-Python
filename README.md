@@ -275,3 +275,7 @@ Sometimes, smoke tests are a dedicated set of tests explicitly written for that 
 # 9. Managing Test Environments with Tox
 
 \-
+
+# 10. Testing Documentation and Property-Based Testing
+
+\-
