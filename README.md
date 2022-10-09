@@ -279,3 +279,15 @@ Sometimes, smoke tests are a dedicated set of tests explicitly written for that 
 # 10. Testing Documentation and Property-Based Testing
 
 \-
+
+---
+---
+
+# Section 3: Testing for the Web
+
+---
+---
+
+# 11. Testing for the Web: WSGI versus HTTP
+
+\-
