@@ -215,5 +215,4 @@ In your TODO list, you can record entries to replace the test doubles with real 
 
 To showcase how test doubles can help us during TDD, we are going to build a chat application by relying on the most common kind of test doubles.
 
-
-
+# 3. Test-Driven Development while Creating a TODO List
