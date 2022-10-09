@@ -259,3 +259,7 @@ Sometimes, smoke tests are a dedicated set of tests explicitly written for that 
 # 5. Introduction to PyTest
 
 \-
+
+# 6. Dynamic and Parametric Tests and Fixtures
+
+\-
